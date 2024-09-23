@@ -4,11 +4,19 @@ body {
     background: #fff;
 }
 
-.header-container {
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.top-line {
     width: 1440px;
     height: 72px;
     border-bottom: 1px solid #e7e9fc;
-    background: lightblue;
+    background: #fff;
 }
 
 .logo-one {
@@ -19,9 +27,8 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    margin-left: 156px;
-    margin-top: 25.5px;
-    ;
+    width: 138px;
+    height: 24px;
 }
 
 .logo-two {
@@ -34,12 +41,10 @@ body {
     color: #2e2f42;
 }
 
-.nav-link {
+.menu-nav {
     margin-top: 0;
     margin-right: 40px;
-    list-style-type: none;
-    display: flex;
-}
+    }
 
 .nav-link-studio, .nav-link-portfolio, .nav-link-contacts {
     font-weight: 500;
@@ -47,37 +52,11 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    margin-top: 24px;
-    margin-bottom: 24px;
 }
-
-.nav-link-studio:hover {
+.nav-link-studio:hover, .nav-link-portfolio:hover, .nav-link-contacts:hover, .nav-link-studio:active {
     color: #404bbf;
 }
-
-.nav-link-studio:active {
-    color: #404bbf;
-}
-
-.nav-link-portfolio:hover, .nav-link-contacts:hover {
-    color: #404bbf;
-}
-
-.nav-link-studio {
-    margin-left: 347px;
-    margin-right: 213px;
-}
-
-.nav-link-portfolio {
-    margin-left: 88;
-    margin-right: 107;
-}
-
-.nav-link-contacts {
-    margin-right: 832px;
-}
-
-.nav-address-mail, .nav-address-tel {
+.adrs-box-list {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -85,7 +64,20 @@ body {
     color: #434455;
 }
 
-.nav-address-mail:hover, .nav-address-tel:hover {
-color: #404bbf;
+
+.big-box {
+    background: #2e2f42;
+    width: 1440px;
+    height: 600px;
+}
+.big-box-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07143;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+    padding-top: 188px;
+    padding-bottom: 292px;
 }
 
