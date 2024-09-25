@@ -1,6 +1,6 @@
 body {
-    font-family: "Roboto", "Raleway",  sans-serif;
-    color: #2e2f42;
+    font-family: "Roboto",  sans-serif;
+    color: #434455;
     background-color: #fff;
 }
 
@@ -12,15 +12,11 @@ ul {
     list-style-type: none;
 }
 
-.top-line {
-    width: 1440px;
-    height: 72px;
-}
-
 .logo-one {
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
@@ -29,63 +25,63 @@ ul {
 .logo-two {
 font-weight: 700;
 font-size: 18px;
-line-height: 1.16667;
+line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
+color: #2e2f42;
 }
 
 .menu-nav {
-    width: 261px;
-    height: 24px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
-.menu-nav:hover {
-    color: #404bbf;
-}
-    
-
-.nav-link-one:active {
-    color: #404bbf;
+.nav-link {
+    color: #2e2f42;
 }
 
-.adrs-link-mail, .adrs-link-tel {
+.nav-link:hover, .nav-link:focus {
+    color: #404bbf;
+}
+
+.adrs-link {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    font-style: normal
 }
 
-.adrs-link-mail:hover, .adrs-link-tel:hover {
+.adrs-link:hover, .adrs-link:focus {
     color: #404bbf;
 }
 
 .big-section {
     background: #2e2f42;
-    width: 1440px;
-    height: 600px;
 }
+
 .big-section-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
-    text-align: center;
     color: #fff;
 }
 .big-section-bttn {
-    width: 169px;
-    height: 56px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
     cursor: pointer;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
 }
 
-.big-section-bttn:hover {
+.big-section-bttn:hover, .big-section-bttn:focus {
     background: #404bbf;
 }
 
@@ -95,21 +91,6 @@ text-transform: uppercase;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
-}
-
-.features-section {
-    width: 1128px;
-    height: 104px;
-}
-
-.features-section {
-    width: 1128px;
-    height: 104px;
-}
-
-.features-box {
-width: 264px;
-height: 104px;
 }
 
 .features-box-title {
@@ -127,27 +108,21 @@ height: 104px;
 }
 
 .team-section {
-    width: 1440px;
-    height: 732px;
     background: #f4f4fd;
 }
 
+.team-card {
+    background-color: #FFFFFF;
+}
+
 .team-section-title {
-    font-weight: 700;
+    font-weight: 500;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
-}
-
-.team-card {
-    width: 264px;
-    height: 380px;
-}
-
-.card-content {
-    width: 232px;
-    height: 56px;
+    text-transform: capitalize;
+    color: #2e2f42;
 }
 
 .team-card-name {
@@ -155,33 +130,23 @@ height: 104px;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    text-align: center;
+    color: #2e2f42;
 }
 
 .team-card-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    text-align: center;
     color: #434455;
-}
-
-.portfolio-section {
-    width: 1128px;
-    height: 1000px;
 }
 
 .portfolio-section-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
-}
-
-.portfolio-section-card {
-    width: 360px;
-    height: 420px;
+    text-transform: capitalize;
 }
 
 .prtfl-sctn-card-title {
@@ -197,16 +162,16 @@ height: 104px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-
 }
 
 .section-footer {
-    width: 1440px;
-    height: 312px;
+    background-color: #2e2f42;
 }
 
 .logo-two-foot {
     color: #f4f4fd;
+    font-family: "Raleway", sans-serif;
+    line-height: 1.17
 }
 
 .descriptn-footer {
@@ -214,5 +179,5 @@ height: 104px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #f4f4fd;
+    color: #2e2f42;
 }
