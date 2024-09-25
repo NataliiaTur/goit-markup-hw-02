@@ -44,9 +44,10 @@ color: #2e2f42;
     letter-spacing: 0.02em;
 }
 
-.menu-nav:hover, {
+.menu-nav:hover {
     color: #404bbf;
 }
+    
 
 .nav-link-one:active {
     color: #404bbf;
@@ -99,9 +100,6 @@ color: #2e2f42;
 .features-section {
     width: 1128px;
     height: 104px;
-}
-.features-sectn-title-unvsbl {
-    visibility: hidden;
 }
 
 .features-section {
