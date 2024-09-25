@@ -23,12 +23,12 @@ ul {
 }
 
 .logo-two {
-font-weight: 700;
-font-size: 18px;
-line-height: 1.17;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #2e2f42;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2e2f42;
 }
 
 .menu-nav {
@@ -78,7 +78,6 @@ color: #2e2f42;
 .big-section-bttn {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
     cursor: pointer;
     line-height: 1.5;
