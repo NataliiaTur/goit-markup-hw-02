@@ -46,13 +46,16 @@ color: #2e2f42;
     color: #404bbf;
 }
 
+.adrs-box {
+    font-style: normal;
+}
+
 .adrs-link {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    font-style: normal
 }
 
 .adrs-link:hover, .adrs-link:focus {
@@ -69,7 +72,9 @@ color: #2e2f42;
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: #fff;
+    text-align: center;
 }
+
 .big-section-bttn {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -93,70 +98,32 @@ color: #2e2f42;
     color: #fff;
 }
 
-.features-box-title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-}
-
-.features-box-text {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
 .team-section {
     background: #f4f4fd;
 }
 
-.team-card {
+.section-card {
     background-color: #FFFFFF;
 }
 
 .team-section-title {
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-align: center;
-    text-transform: capitalize;
-    color: #2e2f42;
-}
-
-.team-card-name {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
-.team-card-text {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-.portfolio-section-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
+    color: #2e2f42;
 }
 
-.prtfl-sctn-card-title {
+.card-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
 
-.prtfl-sctn-card-text {
+.card-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -179,5 +146,5 @@ color: #2e2f42;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: #F4F4FD;
 }
